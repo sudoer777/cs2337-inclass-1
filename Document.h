@@ -8,9 +8,11 @@
 
 class Document {
     public:
-        string contents;
         Document();
+        string GetContents() {return contents;}
+        void SetContents(string inputString) {contents = inputString;}
     private:
+        string contents;
 };
 
 
