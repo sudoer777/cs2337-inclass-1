@@ -5,9 +5,16 @@
 #ifndef CS2337_INCLASS_1_FILE_H
 #define CS2337_INCLASS_1_FILE_H
 
-
-class File {
-
+class File : public Document {
+public:
+    File();
+    std::string GetFilename();
+    std::string GetPathname();
+    void SetFilename();
+    void SetPathname();
+private:
+    std::string filename;
+    std::string pathname;
 };
 
 
