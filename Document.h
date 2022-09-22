@@ -9,10 +9,10 @@
 class Document {
     public:
         Document();
-        string GetContents() {return contents;}
+        std::string GetContents() {return contents;}
         void SetContents(string inputString) {contents = inputString;}
     private:
-        string contents;
+        std::string contents;
 };
 
 
