@@ -16,6 +16,7 @@ class Email : Document {
         void SetRecipient(string s) {recipient = s;}
         string GetTitle() {return title;}
         void SetTitle(string s) {title = s;}
+        string ReturnEverything();
     private:
         string sender;
         string recipient;
