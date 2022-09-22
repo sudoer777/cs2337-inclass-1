@@ -7,7 +7,10 @@
 
 
 class Document {
-
+    public:
+        string contents;
+        Document();
+    private:
 };
 
 
